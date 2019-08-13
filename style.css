@@ -8,6 +8,21 @@
 #banner{
     background-image: url(imgs/Banner.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     width: 100vw;
-    height: 700px;
+    height: 900px;
 }
+
+#logo{
+    width: 300px;
+}
+
+#link{
+    float: right;
+}
+
+#link a{
+    color:#fff;
+    text-decoration: none;
+}
+
