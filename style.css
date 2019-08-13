@@ -15,14 +15,25 @@
 
 #logo{
     width: 300px;
-}
+}  
 
 #link{
     float: right;
+    padding: 40px 0;
 }
 
 #link a{
     color:#fff;
     text-decoration: none;
+    /* 內距：上下 左右 */
+    padding: 5px 15px;
+    /* 字體粗細 0 - 900 */
+    font-weight: 800;
 }
 
+/* 導覽列區塊 */
+nav{
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px o;
+}
