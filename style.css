@@ -10,7 +10,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
-    height: 900px;
+    /* calc 計算 - CSS 計算數字 + - * / */
+    height: calc(100vw / 2.4);
 }
 
 #logo{
@@ -42,4 +43,10 @@ nav{
     width: 80%;
     margin: 0 auto;
     padding: 50px o;
+}
+
+#brands{
+    background-color:#faf7f0;
+    color:#58451a
+
 }
