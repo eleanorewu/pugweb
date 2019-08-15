@@ -5,6 +5,10 @@
     color:black;
 }
 
+body{
+    background-color:#faf7f0;
+}
+
 #banner{
     background-image: url(imgs/Banner.jpg);
     background-size: cover;
@@ -45,8 +49,32 @@ nav{
     padding: 50px o;
 }
 
-#brands{
-    background-color:#faf7f0;
-    color:#58451a
+/* 品牌區塊 */
+#brands {
+    text-align: center;
+    color: #58451a;
+}
 
+.title {
+    font-size: 1.5em;
+    padding: 10px 0;
+}
+
+.title::before {
+    /*  */
+    content: "＼";
+    padding-right: 20px;
+}
+
+.title::after {
+    content: "／";
+    padding-left: 20px;
+}
+
+#brands p {
+    width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    line-height: 2;
+    opacity: 0.6;
 }
