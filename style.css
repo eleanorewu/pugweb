@@ -195,7 +195,7 @@ footer #copy {
 /* 當螢幕寬度小於等於 767 像素 - 手機 */
 @media screen and (max-width: 767px) {
     #product {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr;     
         width: 100%;
     }
     #brands {
@@ -207,4 +207,20 @@ footer #copy {
     /* > 裡面第一層元素 */
     #brands > img {
         width: 100%;
+    }
+    
+    #banner {
+        background-position: center 0;
+    }
+    nav {
+        text-align: center;
+        padding: 10px 0;
+    }
+    .logo {
+        width: 200px;
+    }
+    .link {
+        float: none;
+        padding: 10px 0;
+    }
 }
